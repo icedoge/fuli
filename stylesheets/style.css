@@ -51,7 +51,9 @@ a:active {
 }
 
 .archive-item a {
-  color: #f00;
+  color: #fff;
+  line-height: 0;
+  line-height: 1.4em;
 }
 input:focus {
   outline: 0;
@@ -71,12 +73,13 @@ input:focus {
 }
 /* header */
 .header {
-  position: fixed;
+  /* position: fixed; */
   z-index: 1000;
   width: 92%;
+  margin: 0 auto;
   padding: 30px 0 40px;
-  top: 0;
-  left: 4%;
+  /* top: 0; */
+  /* left: 4%; */
 }
 /* logo */
 .logo a {
@@ -102,7 +105,7 @@ input:focus {
 }
 
 main {
-  padding: 85px 0 20px 0;
+  padding: 20px 0 20px 0;
   margin: 0 4%;
   background-color: #fff;
   transition: 0.5s;
@@ -183,13 +186,14 @@ body.home {
 }
 
 .mainnav > li {
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .mainnav > li {
   right: 0;
   position: absolute;
-  min-width: 47.22222%;
+  /* min-width: 7.22222%; */
+  line-height: 2;
 }
 
 .mainnav > li:first-child {
@@ -263,7 +267,10 @@ body.home {
   width: 47.22222%;
   margin-left: 5.55556%;
   position: relative;
-  padding-bottom: 5.55556%;
+  /* padding-bottom: 4.55556%; */
+  line-height: 0;
+  margin-bottom: 4.55%;
+  overflow: hidden;
 }
 
 .archive-item > a {
@@ -278,14 +285,18 @@ body.home {
 }
 
 .archive-item h2 {
-  display: none;
+  /* display: none; */
   position: absolute;
-  top: 60%;
+  bottom: 0;
   left: 0;
+  margin: 0;
   width: 100%;
   font-size: 0.7em;
   padding: 0.4em;
   text-align: center;
+  display: block;
+  background: rgba(0,0,0,.5);
+  color: #fff;
 }
 
 .archive-item:hover h2 {
@@ -335,7 +346,7 @@ body.home {
     margin-left: 0;
   }
   .archive-item h2 {
-    font-size: 0.8em;
+    font-size: 1em;
   }
 }
 
@@ -395,14 +406,14 @@ body.home {
   height: auto;
   width: 90%;
   margin: 0 auto;
-  font-family: "Times New Roman", serif;
+  /* font-family: "Times New Roman", serif; */
   overflow: visible;
 }
 
 .entry_meta {
   width: 90%;
   margin: 0 auto;
-  font-family: "Times New Roman", serif;
+  /* font-family: "Times New Roman", serif; */
   overflow: visible;
 }
 
@@ -661,4 +672,16 @@ a img.aligncenter {
   h3 {
     page-break-after: avoid;
   }
+}
+.continfo{ clear: both;}
+.continfo p{margin-left: 0;margin-bottom: 16px;}
+.line {
+  margin-bottom: 8px;
+}
+
+.archive-item h2{
+  transition: .5s;
+}
+.archive-item:hover h2{
+  bottom: -5em;
 }
