@@ -86,7 +86,7 @@ input:focus {
   letter-spacing: 0.1em;
   font-size: 1.25em;
   /* line-height: 0.7rem; */
-  font-weight: 700;
+  letter-spacing: 0;
 }
 
 .logo-img {
@@ -326,6 +326,7 @@ body.home {
   .archive-item h2 {
     font-size: 0.75em;
   }
+  
 }
 
 @media only screen and (min-width: 1024px) {
@@ -685,3 +686,13 @@ a img.aligncenter {
 .archive-item:hover h2{
   bottom: -5em;
 }
+.logo {
+  max-width: 60%;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .sy-controls li a:link, .sy-controls li a:visited{opacity: 1!important;}
+  .sy-controls li a{    -webkit-tap-highlight-color: transparent;}
+}
+
+.sy-controls li.sy-next a:after{margin-left: 0!important;;}

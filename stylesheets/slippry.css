@@ -210,7 +210,7 @@
   }
   .sy-controls li {
     position: absolute;
-    width: 40%;
+    width: 30%;
     min-width: 4.2em;
     height: 100%;
     z-index: 33;
@@ -240,7 +240,7 @@
       .sy-controls li a:link, .sy-controls li a:visited {
         opacity: 0.0;
         }
-      .sy-controls li a:hover, .sy-controls li a:focus {
+      .sy-controls li a:hover {
         opacity: 1;
         outline: none;
         }

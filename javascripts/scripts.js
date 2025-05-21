@@ -7,10 +7,11 @@
     $(document).ready(function() {
       jQuery("#slippry").slippry({
         // options
-        adaptiveHeight: false, // height of the sliders adapts to current slide
-        captions: false, // Position: overlay, below, custom, false
+        adaptiveHeight: true, // height of the sliders adapts to current slide
+        captions: true, // Position: overlay, below, custom, false
         pager: false,
-        auto: false
+        auto: false,
+        controls:true
       });
 
       var a = jQuery(".redils-responsive-height .redils");
