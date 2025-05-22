@@ -84,10 +84,9 @@ input:focus {
 /* logo */
 .logo a {
   letter-spacing: 0.1em;
-  font-size: 1em;
+  font-size: 1.25em;
   /* line-height: 0.7rem; */
   letter-spacing: 0;
-  line-height: 24px;
 }
 
 .logo-img {
@@ -194,7 +193,7 @@ body.home {
   right: 0;
   position: absolute;
   /* min-width: 7.22222%; */
-  line-height: 24px;
+  line-height: 2;
 }
 
 .mainnav > li:first-child {
@@ -229,10 +228,6 @@ body.home {
 .mainnav.is-touched ul,
 .no-touch .mainnav:hover ul {
   display: block;
-  font-size: 0.8em;
-}
-
-.logo a {
   font-size: 0.8em;
 }
 
@@ -687,13 +682,9 @@ a img.aligncenter {
 
 .archive-item h2{
   transition: .5s;
-  bottom: -5em;
-  background: none;
-
 }
-.archive-item h2 a{color: #000;}
 .archive-item:hover h2{
-  bottom: 0;
+  bottom: -5em;
 }
 .logo {
   max-width: 60%;
@@ -702,10 +693,6 @@ a img.aligncenter {
 @media (max-width: 768px) {
   .sy-controls li a:link, .sy-controls li a:visited{opacity: 1!important;}
   .sy-controls li a{    -webkit-tap-highlight-color: transparent;}
-  .archive-item h2{
-    transition: .5s;
-    bottom: 0!important;
-  }
 }
 
 .sy-controls li.sy-next a:after{margin-left: 0!important;;}
