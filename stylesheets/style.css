@@ -86,8 +86,9 @@ input:focus {
   letter-spacing: 0.1em;
   font-size: 1em;
   /* line-height: 0.7rem; */
-  letter-spacing: 0;
+  letter-spacing: 0.1em;
   line-height: 24px;
+  text-transform: lowercase;
 }
 
 .logo-img {
@@ -239,6 +240,7 @@ body.home {
 .mainnav > li {
   border-color: transparent;
   border-width: 2px;
+  text-transform: lowercase;
 }
 
 .mainnav .u-selected > a .u-underline,
