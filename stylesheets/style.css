@@ -103,7 +103,8 @@ input:focus {
   margin: 0 4%;
   text-align: right;
   color: #eee;
-  font-size: 0.8em;
+  font-size: 1.2em;
+  padding-top: 0;
 }
 
 main {
