@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>404 - 页面迷路了</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px 20px;
+            background: #f8f9fa;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 4em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        .emoji {
+            font-size: 80px;
+            margin: 30px 0;
+        }
+        p {
+            color: #7f8c8d;
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 30px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: background 0.3s;
+        }
+        a:hover {
+            background: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="emoji">😕</div>
+        <h1>404</h1>
+        <p>哎呀，您寻找的页面可能被外星人带走了！</p >
+        <p>建议您：</p >
+        <p>• 检查网址拼写<br>
+           • 返回首页</p >
+        
+
+
+        <a href=" ">返回首页</a >
+    </div>
+
+    <!-- 可选：5秒后自动跳转 -->
+    <script>
+        setTimeout(function(){
+            window.location.href = "/";
+        }, 5000); // 5秒自动跳转
+    </script>
+</body>
+</html>
