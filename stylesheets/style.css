@@ -101,9 +101,9 @@ input:focus {
 .footer {
   padding: 20px 0;
   margin: 0 4%;
-  text-align: right;
+  text-align: center;
   color: #eee;
-  font-size: 1.2em;
+  font-size: 0.8em;
   padding-top: 0;
 }
 
@@ -712,3 +712,15 @@ a img.aligncenter {
 }
 
 .sy-controls li.sy-next a:after{margin-left: 0!important;;}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+      font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .footer {
+      font-size: 1.2em;
+  }
+}
