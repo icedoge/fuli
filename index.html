@@ -9,7 +9,8 @@
     <meta name="description" content="">
     <link rel="stylesheet" id="normalize-css" href="./stylesheets/normalize.css" media="all">
     <link rel="stylesheet" id="html5blank-css" href="./stylesheets/style.css" media="all">
-
+    <script type="text/javascript" src="./javascripts/jquery.js"></script>
+    <style>main{opacity: 0;transition: 0s;}</style>
 </head>
 
 <body>
@@ -46,5 +47,12 @@
         </main>
     </div>
 </body>
-
+<script>
+    jQuery(function(){
+        var dheight = jQuery(document).height();
+var mheight =jQuery('main').outerHeight();
+var hheight =jQuery('header').outerHeight();
+jQuery('main').css("margin-top",(dheight-mheight)/2 - hheight+'px').css('opacity',1);
+    })
+</script>
 </html>
